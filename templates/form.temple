@@ -1,5 +1,5 @@
 <main>
-	<h1>{- (if (args :message) (args :message) "Vytvořte svojí prezentaci, prosím!") -}</h1>
+	<h1>{- (if (args :message) (args :message) "Mepụta ihe ngosi gị, biko!") -}</h1>
 	<form action="/" method="POST">
 		<textarea name="presentation">{- (args :content) -}</textarea>
 		<button>Ulož!</button>
